@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d9bce63f22bf183f646088481f666512",
-    "content-hash": "8c56a20eb278f647012afc2576cbfddb",
+    "hash": "cb7c2efc08eb1a44d4d2d4bca078ec2b",
+    "content-hash": "2a02f17d0b687776ce1e6401aac5d00c",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -910,7 +910,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/admin_toolbar-8.x-1.16.zip",
-                "reference": null,
+                "reference": "8.x-1.16",
                 "shasum": "3b0e676c8acf0d80816dde3373f453b2a7ba979e"
             },
             "require": {
@@ -961,16 +961,16 @@
         },
         {
             "name": "drupal/console",
-            "version": "1.0.0-beta4",
+            "version": "1.0.0-beta3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hechoendrupal/DrupalConsole.git",
-                "reference": "85376f02cdeb9803f6cec181b2981eaa1fbb7dd2"
+                "reference": "e1be5a726935e23472abaf193dfef40c3157214e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hechoendrupal/DrupalConsole/zipball/85376f02cdeb9803f6cec181b2981eaa1fbb7dd2",
-                "reference": "85376f02cdeb9803f6cec181b2981eaa1fbb7dd2",
+                "url": "https://api.github.com/repos/hechoendrupal/DrupalConsole/zipball/e1be5a726935e23472abaf193dfef40c3157214e",
+                "reference": "e1be5a726935e23472abaf193dfef40c3157214e",
                 "shasum": ""
             },
             "require": {
@@ -981,7 +981,7 @@
                 "gabordemooij/redbean": "@stable",
                 "guzzlehttp/guzzle": "~6.1",
                 "padraic/phar-updater": "~1.0@dev",
-                "php": "^5.6 || ^7.0",
+                "php": ">=5.5.9",
                 "phpseclib/phpseclib": "2.*",
                 "stecman/symfony-console-completion": "^0.5.1",
                 "symfony/config": "~2.8",
@@ -1044,7 +1044,7 @@
                 "drupal",
                 "symfony"
             ],
-            "time": "2016-07-15 23:42:11"
+            "time": "2016-06-29 06:04:48"
         },
         {
             "name": "drupal/core",
