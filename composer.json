@@ -22,7 +22,8 @@
         "drupal/core": "~8.0",
         "drush/drush": "~8.0",
         "drupal/console": "~1.0 < 1.0.0-beta4",
-        "drupal/admin_toolbar": "<= 1.14 || ^1.16"
+        "drupal/admin_toolbar": "<= 1.14 || ^1.16",
+        "drupal/google_analytics": "^2.0"
     },
     "require-dev": {
         "behat/mink": "~1.7",

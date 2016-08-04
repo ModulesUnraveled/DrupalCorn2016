@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "cb7c2efc08eb1a44d4d2d4bca078ec2b",
-    "content-hash": "2a02f17d0b687776ce1e6401aac5d00c",
+    "hash": "bc7172b30d56c0f8d0d57b9c8c952ef4",
+    "content-hash": "c98f63376531554e5e0e718fa102584b",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1215,6 +1215,58 @@
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
             "time": "2016-07-18 15:01:43"
+        },
+        {
+            "name": "drupal/google_analytics",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/google_analytics",
+                "reference": "8.x-2.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/google_analytics-8.x-2.0.zip",
+                "reference": null,
+                "shasum": "f1424e20162a3e7bcafbc44d7cd6100a799c6111"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "suggest": {
+                "drupal/php": "Required by drupal/google_analytics",
+                "drupal/token": "Required by drupal/google_analytics"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-2.x": "2.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-2.0",
+                    "datestamp": "1461443639"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "hass",
+                    "homepage": "https://www.drupal.org/u/hass"
+                },
+                {
+                    "name": "See other contributors",
+                    "homepage": "https://www.drupal.org/node/49388/committers"
+                }
+            ],
+            "description": "Allows your site to be tracked by Google Analytics by adding a Javascript tracking code to every page.",
+            "homepage": "https://www.drupal.org/project/google_analytics",
+            "support": {
+                "source": "http://git.drupal.org/project/google_analytics.git",
+                "issues": "https://www.drupal.org/project/issues/google_analytics"
+            }
         },
         {
             "name": "drush/drush",
