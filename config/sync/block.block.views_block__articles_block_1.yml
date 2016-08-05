@@ -1,0 +1,24 @@
+uuid: 654bc7c3-0c2b-4aa7-9475-ce80d1ceb214
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.articles
+  module:
+    - views
+  theme:
+    - drupal8_zymphonies_theme
+id: views_block__articles_block_1
+theme: drupal8_zymphonies_theme
+region: sidebar_first
+weight: -8
+provider: null
+plugin: 'views_block:articles-block_1'
+settings:
+  id: 'views_block:articles-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }
